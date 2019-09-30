@@ -42,6 +42,8 @@ Completar la tabla:
 * Se crea un arreglo de 256 posiciones, luego se itera sobre los pixeles de la imagen se convierten a color gris y a partir de ahí se cuenta la frecuencia de los valores. Se activa con la tecla H.
 (describa brevemente las actividades realizadas y los resultados obtenidos)
 
+* Para la segmentación de la imagen se convierte a gris la imagen y luego se divide en 4 partes de 64 tonos cada una,de forma que al presionar las teclas 1, 2, 3 y 4 se pueden observar los tonos grises desde los mas oscuros hacia los mas claros. Los valores que no se incluyen se muestran en rojo para hacerlo un poco mas claro.
+
 ## Entrega
 
 * Plazo para hacer _push_ del repositorio a github: 29/9/19 a las 24h.
