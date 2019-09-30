@@ -11,7 +11,7 @@ void setup(){
 void draw(){
   pg.beginDraw();
   //pg.background(255);
-  pg.background(100);
+  pg.background(255);
   pg.stroke(255);
   //pg.line(20, 20, 100, 100);
   pg.loadPixels();
@@ -35,13 +35,14 @@ void draw(){
     histogram();
   }
   else if (key == '1' || key == '2' || key == '3'|| key == '4' ){
-    
+    segmentation(Character.getNumericValue(key));
   }
   } else{
     //blur();
     sameImage();
     //edgeDetection();
     //histogram();  
+    //segmentation(1);
 }
   //pg.updatePixels();
   image(img, 10, 30, img.width, img.height);
@@ -199,6 +200,24 @@ void histogram(){
     println("y2:"+ (pg.height - histogram[i/2] * img.height / histMax));
     line(i,pg.height*2,i,pg.height*2 - histogram[i/2] * img.height / histMax);
     }
+  }
+  
+}
+
+
+void segmentation(int quartile){
+  println("segmentation");
+   for(int x=0; x<img.width; x++){
+   for(int y=0; y<img.height; y++){
+     color c = img.pixels[img.width*y +x];
+     int grayScale = (int)(blue(c) + green(c) + red(c))/3;
+      if(grayScale/64 == quartile-1){
+        pg.pixels[img.width*y +x] = color(grayScale,grayScale,grayScale);
+      }
+      else{
+        pg.pixels[img.width*y +x] =color(200,0,0);
+      }
+   }
   }
   
 }
