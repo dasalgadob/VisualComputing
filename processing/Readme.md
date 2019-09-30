@@ -35,6 +35,11 @@ Completar la tabla:
 
 ## Discusión
 
+* La conversión a escala de grises consiste en tomar el promedio de la suma de los 3 canales a color y dejar ese como el nuevo color se puede observar oprimiendo la tecla G. Para el caso de Luma consiste en la multiplicación de cada canal por una constante respectiva(observar con la tecla L).
+
+* Para las mascaras de convolución se implemento una función de padding de forma que los filtros aplicaran totalmente a la imagen. Luego en la operación de convolución se le pasa la matriz respectiva con el filtro a aplicar. Para observar su funcionamiento tecla E activa Edge Detection, tecla S activa Sharpen, tecla B activa efecto borroso(Blur).
+
+* Se crea un arreglo de 256 posiciones, luego se itera sobre los pixeles de la imagen se convierten a color gris y a partir de ahí se cuenta la frecuencia de los valores. Se activa con la tecla H.
 (describa brevemente las actividades realizadas y los resultados obtenidos)
 
 ## Entrega
