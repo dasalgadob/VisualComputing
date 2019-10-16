@@ -34,7 +34,7 @@ Complete la tabla:
 
 2. Describa brevememente las referencias estudiadas y los posibles temas en los que le gustaría profundizar
 
-Temas a profundizar: Eficiencia computacional en procesamiento de imagenes y usos de computación paralela para mejorar rendimiento en renderizado.
+Temas a profundizar: Eficiencia computacional en procesamiento de imagenes y usos de computación paralela para mejorar rendimiento en renderizado. Ademàs algoritmos de localizaciòn y detecciòn  de objetos como YOLO, de reconocimiento facial como One Shot Learning, red siames y tripleta de pèrdida.
 
 ## Entrega
 
