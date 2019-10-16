@@ -25,12 +25,12 @@ Complete la tabla:
 
 | Ilusión | Categoria | Referencia | Tipo de interactividad (si aplica) | URL código base (si aplica) |
 |---------|-----------|------------|------------------------------------|-----------------------------|
-|         |           |            |                                    |                             |
-|         |           |            |                                    |                             |
-|         |           |            |                                    |                             |
-|         |           |            |                                    |                             |
-|         |           |            |                                    |                             |
-|         |           |            |                                    |                             |
+|   CafeWall      |    GEOMETRICAL-OPTICAL       |    Movimiento de mouse eje x        |                                    |                             |
+|   CHaserIllusion      |     Otras      |    Ninguna        |                                    |                             |
+|    COlor Gradient     |    PHYSIOLOGICAL       |   Oprimir tecla G para ver fondo negro         |    https://processing.org/examples/lineargradient.html                                |                             |
+|    Hermann Grid     |  PHYSIOLOGICAL         |    Ninguna        |                                    |                             |
+|    Match's Band     |     PHYSIOLOGICAL      |     Movimiento mouse eje y       |                                    |                             |
+|     Stuart Anstis Ilussion    |     Movement      |    Click para que no muestre lineas negras        |                                    |                             |
 
 2. Describa brevememente las referencias estudiadas y los posibles temas en los que le gustaría profundizar
 
