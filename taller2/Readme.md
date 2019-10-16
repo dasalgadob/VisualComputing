@@ -17,7 +17,7 @@ Complete la tabla:
 
 | Integrante | github nick |
 |------------|-------------|
-|            |             |
+| Diego Salgado           |   dasalgadob          |
 
 ## Discusión
 
