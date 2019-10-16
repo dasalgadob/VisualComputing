@@ -29,8 +29,8 @@ Complete la tabla:
 |   CHaserIllusion      |     Otras      |            |               Ninguna                     |                             |
 |    COlor Gradient     |    PHYSIOLOGICAL       |           |              Oprimir tecla G para ver fondo negro                     |             https://processing.org/examples/lineargradient.html                  |
 |    Hermann Grid     |  PHYSIOLOGICAL         |           |           Ninguna                          |                             |
-|    Match's Band     |     PHYSIOLOGICAL      |           |         Movimiento mouse eje y                            |                             |
-|     Stuart Anstis Ilussion    |     Movement      |           |                                    |       Click para que no muestre lineas negras                       |
+|    Match's Band     |     PHYSIOLOGICAL      |           |         Movimiento mouse eje y                            |                             |Click para que no muestre lineas negras
+|     Stuart Anstis Ilussion    |     Movement      |           |         Click para que no muestre lineas negras                           |                              |
 
 2. Describa brevememente las referencias estudiadas y los posibles temas en los que le gustaría profundizar
 
